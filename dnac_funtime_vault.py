@@ -6,7 +6,7 @@ from dnacentersdk import DNACenterAPI
 import sys
 sys.path.append('/Users/blaturne/DevNetCode/devasc-exam/vault/')
 # import vault.py specific functions and variables that exists in upstream vault directory
-from vault import vault_auth, dnac_vault_r_secret, vault_unseal_key, vault_client_token
+from vault import vault_auth, dnac_vault_r_secret, vault_unseal_key, vault_role_id, vault_secret_id
 
 vault_mount_point = 'kv-v1'
 dnac_vault_path = '/devnet/dnac/sb1'
