@@ -3,6 +3,9 @@
 # Created by https://www.gitignore.io/api/visualstudiocode,macos,python
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,macos,python
 
+### Dotenv ###
+.env
+
 ### macOS ###
 # General
 .DS_Store
